@@ -16,7 +16,9 @@ int main (int argc, char *argv[]) {
     int aprobados, reprobados;
     for (int i = 0; i < 5; i++)
     {
-        printf ("Ingrese las notas del estudiante %d \n", i+1);
+        printf ("\nIngrese las notas del estudiante %d \n", i+1);
+        printf("---------------------------------------\n");
+
         for (int j = 0; j < 3; j++)
         {
             printf ("Ingrese la nota de la asignatura %d: ", j+1);
